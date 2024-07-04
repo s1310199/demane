@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class HeadsOrTails {
+public class java {
     public static void main(String[] args){
         
         Random random = new Random();
