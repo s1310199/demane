@@ -1,8 +1,7 @@
 import java.util.Random;
 
 public class java {
-    public static void main(String[] args){
-        
+    public static void main(String[] args) {
         Random random = new Random();
         int headsCount = 0;
         int tailsCount = 0;
@@ -21,7 +20,7 @@ public class java {
         }
 
         System.out.println("Heads: " + headsCount + ", Tails: " + tailsCount);
-        
+
         if (headsCount > tailsCount) {
             System.out.println("You won!");
         } else {
